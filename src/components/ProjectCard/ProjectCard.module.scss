@@ -1,0 +1,68 @@
+.projectCard {
+  width: 400px;
+  height: 400px;
+  background-color: var(--light-gray);
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 30px;
+  text-align: left;
+  padding: 25px;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+.cardTitle {
+  font-size: 1.875rem;
+  font-weight: 800;
+  color: var(--dark-gray);
+}
+
+.cardDescription {
+  font-size: 1.15rem;
+  color: var(--dark-gray);
+  opacity: 60%;
+}
+
+.projectCard:hover {
+  transform: scale(1.025);
+  transition: transform .3s;
+}
+
+.cardTitle:hover {
+  background: linear-gradient(90deg, rgba(51,51,51,1) 0%, rgba(153,1,0,1) 32%,  rgba(51,51,51,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: var(--dark-gray);
+}
+/*
+
+.projectCard:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2em;
+  height: 100%;
+  background: radial-gradient(at 0% 0%, #e0970d, #990100);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ // background-color: rgba(255, 255, 255, 0.3);
+  transform: translateX(-20em) skewX(-45deg);
+  opacity: .2;
+}
+
+.projectCard:hover:before {
+  opacity: .2;
+  animation: moveLight 0.5s;
+}
+
+@keyframes moveLight {
+  from {
+    transform: translateX(-20em) skewX(-45deg);
+  }
+  to {
+    transform: translateX(30em) skewX(-45deg);
+  }
+}
+
+*/
