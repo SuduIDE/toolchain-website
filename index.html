@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,12 +17,12 @@
     </div>
     <div class="overviewBlock">
         <div class="projectsRow">
-            {% for project in site.projects %}
+{% for project in site.projects %}
             <a href="{{ project.path }}" class="projectCard">
                 <p class="cardTitle">{{ project.name }}</p>
                 <p class="cardDescription">{{ project.content | markdownify }}</p>
             </a>
-            {% endfor %}
+{% endfor %}
         </div>
         <div class="projectsRow">
         </div>
