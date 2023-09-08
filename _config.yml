@@ -14,3 +14,6 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+exclude:
+  - README.md
