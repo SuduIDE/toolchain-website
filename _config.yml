@@ -3,3 +3,14 @@ theme: minima
 collections:
   projects:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
