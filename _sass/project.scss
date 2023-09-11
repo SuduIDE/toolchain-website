@@ -1,21 +1,21 @@
 .projectHeader {
   display: flex;
   flex-direction: column;
-  margin-top: 15%;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 100vh;
+  margin: 10%;
+  min-height: 100vh;
+  max-height: max-content;
+  background: linear-gradient(to right, var(--light-gray) 20%, transparent),  url("mesh-33.png");
 }
 
 .projectTitle {
-  font-size: calc(1em + 4vw);
+  font-size: calc(1em + 4.5vw);
   color: var(--dark-gray);
   font-weight: 750;
-  animation: showUpTranslateLeft 1s forwards;
+  animation: showUpTranslateLeft 1.5s forwards;
 }
 
 .projectSubtitle {
-  font-size: 1.25rem;
+  font-size: 24px;
   font-weight: 200;
   color: var(--gray);
 }
@@ -28,8 +28,22 @@
 
 .projectTitleColumn {
   box-sizing: border-box;
+  color: var(--dark-gray);
+  font-size: 20px;
+  font-weight: 400;
+  margin: 2%;
   flex: 1 1 266.66px;
   animation: showUpTranslateDown 1.5s forwards;
+}
+
+.projectTitleColumn div {
+  margin-top: 4%;
+}
+
+.projectTitleColumn div a {
+  text-decoration: none;
+  color: var(--dark-gray);
+  font-size: 22px;
 }
 
 @keyframes showUp {
@@ -56,7 +70,75 @@
     opacity: 0;
   }
   100% {
-    transform: translateX(8px);
+    transform: translateX(11px);
+    opacity: 1;
+  }
+}
+
+.orangeFigure {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  margin-left: -90px;
+  margin-top: -390px;
+  background: radial-gradient(circle 150px, var(--light-orange) 50%, transparent);
+  border-radius: 30% 70% 71% 29% / 30% 30% 70% 70%;
+  animation: showUpTranslateFigureTop 1.5s forwards;
+}
+
+.redFigure {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  margin-left: -410px;
+  margin-top: -140px;
+  background: radial-gradient(circle 120px, var(--light-red) 20%, transparent);
+  border-radius: 30% 70% 28% 72% / 44% 30% 70% 56% ;
+  animation: showUpTranslateFigureLeft 1.5s forwards;
+  background-blend-mode: multiply;
+}
+
+.purpleFigure {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  margin-top: -100px;
+  background: radial-gradient(circle 100px, var(--light-purple) 50%, transparent);
+  border-radius: 30% 70% 68% 32% / 44% 25% 75% 56% ;
+  animation: showUpTranslateFigureRight 1.5s forwards;
+  background-blend-mode: multiply;
+
+}
+
+@keyframes showUpTranslateFigureLeft {
+  0% {
+    opacity: .8;
+  }
+  100% {
+    transform: translateX(150px);
+    opacity: 1;
+  }
+}
+
+@keyframes showUpTranslateFigureTop {
+  0% {
+    opacity: .8;
+  }
+  100% {
+    transform: translateY(130px);
+    opacity: 1;
+  }
+}
+
+@keyframes showUpTranslateFigureRight {
+  0% {
+    opacity: .8;
+  }
+  100% {
+    transform: translateX(-90px);
     opacity: 1;
   }
 }

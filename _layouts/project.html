@@ -6,23 +6,31 @@
 <body>
 <div class="content">
   <header class="projectHeader">
+    <div class="orangeFigure"></div>
+    <div class="redFigure"></div>
+    <div class="purpleFigure"></div>
     <div class="projectTitle">{{ page.title }}
       <p class="projectSubtitle">{{ page.description }}</p>
     </div>
     <div class="projectHeaderRow">
       <div class="projectTitleColumn">
         Stage
+        <div {% if page.stage ==
+        'in progress' %}class="label purple"{% endif %}>{{page.stage}}</div>
       </div>
       <div class="projectTitleColumn">
         Product category
-        <div {% if project.category==
+        <div {% if page.category ==
         'productivity' %}class="label orange"{% endif %}
-        {% if project.category == 'quality' %}class="label green"{% endif %}>
-        {{project.category}}
+        {% if page.category == 'quality' %}class="label green"{% endif %}>
+        {{page.category}}
       </div>
     </div>
     <div class="projectTitleColumn">
       Integration
+      <div class="projectSubtitle">
+        <a href="/project1">Project 1</a></br>
+        <a href="/project2">Project 2</a>
     </div>
 </div>
   </header>
