@@ -23,11 +23,19 @@ Internal build configuration enables internal content that is mounted from other
 
 Build output will be in [_site](_site) folder
 
-## Edit website content
+## Run
+
+Public: `build-scripts/run-public.sh`.
+
+Internal: `build-scripts/run-internal.sh`.
+
+Open browser: http://127.0.0.1:4000
+
+## Edit
 
 List of RnD toolchain projects is stored in [_projects](_projects) folder.
 
-### Edit oproperties
+### Edit properties
 
 Project properties are stored in [Jekyll Front Matter](https://jekyllrb.com/docs/step-by-step/03-front-matter/) at the top of every project page.
 
