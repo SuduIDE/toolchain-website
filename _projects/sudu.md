@@ -8,3 +8,5 @@ It is a long established fact that a reader will be distracted by the readable c
 {% if jekyll.environment == "internal" %}
 {% include projects-internal/sudu-internal.md %}
 {% endif %}
+
+![Cat](/assets/images/cat.jpg)
