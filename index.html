@@ -20,7 +20,8 @@
 {% for project in site.projects %}
             <a href="{{ project.url }}" class="projectCard">
                 <p class="cardTitle">{{ project.title }}</p>
-                <p class="cardDescription">{{ project.content | markdownify }}</p>
+                <div class="line"></div>
+                <p class="cardDescription">{{ project.description }}</p>
             </a>
 {% endfor %}
         </div>
