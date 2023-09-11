@@ -20,7 +20,10 @@
 {% for project in site.projects %}
             <a href="{{ project.url }}" class="projectCard">
                 <p class="cardTitle">{{ project.title }}</p>
-                <div class="line"></div>
+                <div {% if project.category == 'productivity' %}class="label orange"{% endif %}
+                     {% if project.category == 'quality' %}class="label green"{% endif %}>
+                    {{project.category}}
+                </div>
                 <p class="cardDescription">{{ project.description }}</p>
             </a>
 {% endfor %}

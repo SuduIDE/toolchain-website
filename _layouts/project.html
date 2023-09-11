@@ -5,11 +5,26 @@
 </head>
 <body>
 <div class="content">
-  <header>
-    <div>
-      <h1 class="font-bold text-1">{{ page.title }}</h1>
-      <h3>{{ page.description }}</h3>
+  <header class="projectHeader">
+    <div class="projectTitle">{{ page.title }}
+      <p class="projectSubtitle">{{ page.description }}</p>
     </div>
+    <div class="projectHeaderRow">
+      <div class="projectTitleColumn">
+        Stage
+      </div>
+      <div class="projectTitleColumn">
+        Product category
+        <div {% if project.category==
+        'productivity' %}class="label orange"{% endif %}
+        {% if project.category == 'quality' %}class="label green"{% endif %}>
+        {{project.category}}
+      </div>
+    </div>
+    <div class="projectTitleColumn">
+      Integration
+    </div>
+</div>
   </header>
   <main>
     <div style="margin: 20px">
