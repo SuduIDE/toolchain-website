@@ -11,4 +11,4 @@ It is a long established fact that a reader will be distracted by the readable c
 {% include projects-internal/sudu-internal.md %}
 {% endif %}
 
-![Cat](/assets/images/cat.jpg)
+![Cat]({{ "/assets/images/cat.jpg" | relative_url}})

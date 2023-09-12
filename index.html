@@ -1,13 +1,5 @@
 ---
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-</head>
-<body>
 <div class="content">
     <div class="titleBlock">
         <p class="title">R&D Toolchain Technology Department</p>
@@ -18,7 +10,7 @@
     <div class="overviewBlock">
         <div class="projectsRow">
 {% for project in site.projects %}
-            <a href="{{ project.url }}" class="projectCard">
+            <a href="{{ project.url | relative_url }}" class="projectCard">
                 <p class="cardTitle">{{ project.title }}</p>
                 <div {% if project.category == 'productivity' %}class="label orange"{% endif %}
                      {% if project.category == 'quality' %}class="label green"{% endif %}>
@@ -32,5 +24,3 @@
         </div>
     </div>
 </div>
-</body>
-</html>

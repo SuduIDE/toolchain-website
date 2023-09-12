@@ -21,3 +21,5 @@ exclude:
 
 load_paths:
   - _sass
+
+baseurl: toolchain-website
