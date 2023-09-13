@@ -4,6 +4,7 @@ description: Universal Symbolic Virtual Machine is an ultimately powerful langua
 permalink: /projects/usvm.html
 category: quality
 stage: in progress
+repository: https://github.com/UnitTestBot/usvm
 ---
 
 ## How we got here
@@ -51,4 +52,4 @@ You can build custom symbolic execution engines with the USVM core inside to sho
 * test generation,
 * static analysis,
 * verification
-* targeted fuzzing,</br>and more symbolic execution based solutions.
+* targeted fuzzing and more symbolic execution based solutions.

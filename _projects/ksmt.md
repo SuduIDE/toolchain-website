@@ -4,6 +4,7 @@ description: Unified Kotlin/Java API for various SMT solvers.
 permalink: /projects/ksmt.html
 category: productivity
 stage: in progress
+repository: https://github.com/UnitTestBot/ksmt
 ---
 
 Get the most out of SMT solving with KSMT features:

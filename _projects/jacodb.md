@@ -4,6 +4,7 @@ description: JacoDB is a pure Java library that allows you to get information ab
 permalink: /projects/jacodb.html
 category: quality
 stage: in progress
+repository: https://github.com/UnitTestBot/jacodb
 ---
 
 ## Overview
@@ -22,38 +23,6 @@ Information about classes, hierarchies, annotations, methods, fields, and their 
 - [Classpath extensions (aka features)](https://jacodb.org/documentation/classpath-features/)
 - [Bytecode instructions](https://jacodb.org/documentation/instructions/)
 - [Control flow graph](https://jacodb.org/documentation/graphs/)
-
-## Installation
-
-Gradle:
-```kotlin
-    implementation(group = "org.jacodb", name = "jacodb-api", version = "1.2.0")
-    implementation(group = "org.jacodb", name = "jacodb-core", version = "1.2.0")
-    implementation(group = "org.jacodb", name = "jacodb-analysis", version = "1.2.0")
-```
-
-or 
-
-Maven:
-```xml
-<dependencies>
-    <dependency>
-        <groupId>org.jacodb</groupId>
-        <artifactId>jacodb-core</artifactId>
-        <verison>1.2.0</verison>
-    </dependency>
-    <dependency>
-        <groupId>org.jacodb</groupId>
-        <artifactId>jacodb-api</artifactId>
-        <verison>1.2.0</verison>
-    </dependency>
-    <dependency>
-        <groupId>org.jacodb</groupId>
-        <artifactId>jacodb-analysis</artifactId>
-        <verison>1.2.0</verison>
-    </dependency>
-</dependencies>
-```
 
 ## Concepts
 

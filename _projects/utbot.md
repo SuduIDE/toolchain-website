@@ -4,6 +4,7 @@ description: Tool for automated unit test generation and precise code analysis.
 permalink: /projects/utbot.html
 category: productivity
 stage: in progress
+repository: https://github.com/UnitTestBot/UTBotJava
 ---
 
 👉 Find UnitTestBot on [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/19445-unittestbot).
