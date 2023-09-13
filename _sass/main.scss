@@ -38,8 +38,9 @@ body::-webkit-scrollbar-thumb {
   height: max-content;
   width: 100%;
   margin-top: 8px;
-  align-self: center;
-  align-items: center;
+  align-content: stretch;
+  align-self: stretch;
+  align-items: stretch;
   background-color: var(--light-gray);
   overflow-y: hidden;
 }
@@ -52,15 +53,21 @@ body::-webkit-scrollbar-thumb {
 }
 
 .titleBlock {
-  height: 320px;
+  height: 400px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-self: center;
   justify-content: center;
   text-align: center;
   line-height: 1.5;
   width: 70%;
-  margin-top: 30px;
+}
+
+.titleLogo {
+  width: 60%;
+  align-self: center;
+  margin-bottom: 20px;
 }
 
 .title {
