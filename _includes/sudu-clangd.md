@@ -1,0 +1,1 @@
+Modified version of well known Clangd to make it stateless and more suitable for cloud environment. 

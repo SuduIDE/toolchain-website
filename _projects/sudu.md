@@ -15,3 +15,5 @@ stage: in progress
 # Sudu Distributed File System
 {% include sudu-dfs.md %}
 
+# Sudu ClangD
+{% include sudu-clangd.md %}
