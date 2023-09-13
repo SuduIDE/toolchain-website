@@ -15,11 +15,12 @@
     <div class="projectHeaderRow">
       <div class="projectTitleColumn">
         Stage
-        <div {% if page.stage ==
-        'in progress' %}class="label purple"{% endif %}>{{page.stage}}</div>
+        <div class="label {% if page.stage == 'in progress' %} purple
+             {% elsif page.stage == 'completed' %} green
+             {% endif %}">{{page.stage}}</div>
       </div>
       <div class="projectTitleColumn">
-        Product category
+        Tool Category
         <div {% if page.category ==
         'productivity' %}class="label orange"{% endif %}
         {% if page.category == 'quality' %}class="label green"{% endif %}>

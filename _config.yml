@@ -24,3 +24,6 @@ load_paths:
 
 baseurl: toolchain-website
 repository: SuduIDE/toolchain-website
+
+plugins:
+  - jemoji

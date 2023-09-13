@@ -260,6 +260,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 228)
+  jemoji
   wdm (>= 0.1.0)
   webrick (~> 1.8)
 
