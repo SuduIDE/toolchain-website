@@ -33,6 +33,10 @@ Class history tool window provides overview of evolution for all class structure
 
 **!! SCREENSHOT NEEDED !!**
 
+## AI-based context aware code summarization
+
+{% include ai-code-summarization.md %}
+
 {% if jekyll.environment == "internal" %}
 {% include projects-internal/sudu-cpp-internal.md %}
 {% endif %}
