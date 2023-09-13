@@ -1,10 +1,16 @@
 .projectHeader {
   display: flex;
   flex-direction: column;
-  margin: 10%;
-  min-height: 100vh;
+  margin: 10% 10% 5%;
+  min-height: 90vh;
   max-height: max-content;
-  background: linear-gradient(to right, var(--light-gray) 20%, transparent),  url("mesh-33.png");
+  max-width: 1000px;
+  align-self: center;
+  background: linear-gradient(to right, var(--light-gray) 20%, transparent);
+}
+
+header {
+  border-bottom: solid 1px var(--border);
 }
 
 .projectTitle {
@@ -18,6 +24,8 @@
   font-size: 24px;
   font-weight: 200;
   color: var(--gray);
+  display: flex;
+  flex-direction: row;
 }
 
 .projectHeaderRow {
@@ -32,12 +40,16 @@
   font-size: 20px;
   font-weight: 400;
   margin: 2%;
-  flex: 1 1 266.66px;
+  flex: 1 1 200px;
   animation: showUpTranslateDown 1.5s forwards;
 }
 
 .projectTitleColumn div {
   margin-top: 4%;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--gray);
+
 }
 
 .projectTitleColumn div a {
@@ -141,4 +153,109 @@
     transform: translateX(-90px);
     opacity: 1;
   }
+}
+
+.homeLink {
+  width: 50px;
+  position: absolute;
+  left: 5vw;
+  top: 8vh;
+  z-index: 100;
+}
+
+.homeLinkImg {
+  width: 50px;
+  position: absolute;
+  z-index: 100;
+}
+
+.homeLink:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+}
+
+.githubLink {
+  width: 50px;
+  position: absolute;
+  right: 5vw;
+  top: 8vh;
+  z-index: 100;
+}
+
+.projectContent {
+  margin-top: 0;
+  position: relative;
+}
+
+.projectContent h2 {
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.projectContent h3 {
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+
+.projectContent h4 {
+  font-size: 28px;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.projectContent p, li, a, ul {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+main {
+  margin-right: 5%;
+  margin-left: 7%;
+  margin-top: 8vh;
+  max-width: 1000px;
+  align-self: center;
+  position: relative;
+  animation: showUpTranslateDown 1.5s forwards;
+}
+
+.language {
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: var(--dark-gray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.circle {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 5px 5px 0;
+}
+
+.java {
+  background: var(--orange);
+}
+
+.python {
+  background: var(--blue);
+}
+
+.cpp {
+  background: var(--pink);
+}
+
+.typescript {
+  background: var(--light-blue);
+}
+
+.projectTitleColumn .label {
+  font-size: 15px;
 }

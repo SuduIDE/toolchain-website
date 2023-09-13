@@ -3,7 +3,12 @@ title: USVM
 description: Universal Symbolic Virtual Machine is an ultimately powerful language-agnostic core for implementing custom symbolic execution based products.
 permalink: /projects/usvm.html
 category: quality
-stage: in progress
+stage: development
+reason: Some reason
+languages:
+  - java
+  - typescript
+integrations: Project 1
 repository: https://github.com/UnitTestBot/usvm
 ---
 

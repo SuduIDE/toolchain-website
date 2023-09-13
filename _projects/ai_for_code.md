@@ -5,7 +5,11 @@ permalink: /projects/aiforcode.html
 category: productivity
 stage: design
 reason: Some reason
-language: java/cpp/python/typescript
+languages: 
+  - java
+  - cpp
+  - python
+  - typescript
 integrations: Project 1
 ---
 

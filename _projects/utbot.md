@@ -3,7 +3,12 @@ title: UnitTestBot
 description: Tool for automated unit test generation and precise code analysis.
 permalink: /projects/utbot.html
 category: productivity
-stage: in progress
+stage: development
+reason: Some reason
+languages:
+   - java
+   - typescript
+integrations: Project 1
 repository: https://github.com/UnitTestBot/UTBotJava
 ---
 

@@ -6,6 +6,12 @@
 <body>
 <div class="content">
   <header class="projectHeader">
+    <a href="{{'/' | relative_url }}" class="homeLink">
+      <img class="homeLinkImg" src="{{ "/assets/images/logo.png" | relative_url }}"/>
+    </a>
+    <a href="{{'/' | relative_url }}" class="githubLink">
+      <img class="homeLinkImg" src="{{ "/assets/images/github_icon.png" | relative_url }}"/>
+    </a>
     <div class="orangeFigure"></div>
     <div class="redFigure"></div>
     <div class="purpleFigure"></div>
@@ -15,31 +21,48 @@
     <div class="projectHeaderRow">
       <div class="projectTitleColumn">
         Stage
-        <div class="label {% if page.stage == 'in progress' %} purple
+        <div class="label {% if page.stage == 'development' %} red
              {% elsif page.stage == 'completed' %} green
+             {% elsif page.stage == 'design' %} purple
+             {% elsif page.stage == 'integration' %} orange
              {% endif %}">{{page.stage}}</div>
       </div>
       <div class="projectTitleColumn">
         Tool Category
-        <div {% if page.category ==
-        'productivity' %}class="label orange"{% endif %}
-        {% if page.category == 'quality' %}class="label green"{% endif %}
-        {% if page.category == 'security' %}class="label red"{% endif %}>
+        <div {% if page.category == 'productivity' %}class="label outlineBlue"{% endif %}
+        {% if page.category == 'quality' %}class="label outlineGreen"{% endif %}
+        {% if page.category == 'security' %}class="label outlineRed"{% endif %}>
         {{page.category}}
       </div>
     </div>
-{% if jekyll.environment == "internal" %}
+    {% if jekyll.environment == "internal" %}
     <div class="projectTitleColumn">
       Integration
       <div class="projectSubtitle">
         <a href="/project1">Project 1</a></br>
         <a href="/project2">Project 2</a>
+      </div>
+      {% endif %}
     </div>
-</div>
-{% endif %}
+
+    <div class="projectHeaderRow">
+      <div class="projectTitleColumn">
+        Reason
+        <div>{{page.reason}}</div>
+      </div>
+      <div class="projectTitleColumn">
+        Languages
+        <div class="projectSubtitle">
+          {% for language in page.languages %}
+          <div class="language">
+          <p class="circle {{ language }}"></p>{{language}}&nbsp;</div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   </header>
   <main>
-    <div style="margin: 20px">
+    <div class="projectContent">
       {{ content }}
     </div>
   </main>

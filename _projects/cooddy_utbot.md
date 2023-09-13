@@ -3,7 +3,14 @@ title: Cooddy+UTBot
 description: Integration of a Cooddy static analyzer with a UTBot-KLEE symbolic execution virtual machine
 permalink: /projects/cooddy_utbot.html
 category: quality
-stage: in progress
+stage: development
+reason: Some reason
+languages:
+  - java
+  - cpp
+  - python
+  - typescript
+integrations: Project 2, Project 3
 ---
 
 ## Purpose

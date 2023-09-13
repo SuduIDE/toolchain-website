@@ -5,7 +5,9 @@ permalink: /projects/sudu.html
 category: productivity
 stage: development
 reason: Some reason
-language: java/cpp/typescript
+languages:
+  - java
+  - typescript
 integrations: Project 1
 ---
 

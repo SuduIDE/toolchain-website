@@ -4,18 +4,22 @@ subtitle: We are a team of experts that create advanced tools for software devel
 ---
 <div class="content">
     <header class="titleBlock">
-        <img class="titleLogo" src="{{ "/assets/images/logo-full.png" | relative_url }}"/>
-        <p class="subtitle">{{ page.subtitle }}</p>
+        <div>
+            <img class="logoImg" src="{{ "/assets/images/logo.png" | relative_url }}"/>
+            <img class="titleLogo" src="{{ "/assets/images/logo-title.png" | relative_url }}"/>
+        </div>
+    <p class="subtitle">{{ page.subtitle }}</p>
     </header>
     <div class="overviewBlock">
         <div class="projectsRow">
-{% for project in site.projects %}
+            {% for project in site.projects %}
             <a href="{{ project.url | relative_url }}" class="projectCard">
                 <p class="cardTitle">{{ project.title }}</p>
-                <div {% if project.category == 'productivity' %}class="label orange"{% endif %}
-                     {% if project.category == 'quality' %}class="label green"{% endif %}>
-                    {{project.category}}
-                </div>
+                <div {% if project.category==
+                'productivity' %}class="label orange"{% endif %}
+                {% if project.category == 'quality' %}class="label green"{% endif %}>
+                {{project.category}}
+        </div>
                 <p class="cardDescription">{{ project.description }}</p>
             </a>
 {% endfor %}

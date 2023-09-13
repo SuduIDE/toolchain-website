@@ -5,7 +5,8 @@ permalink: /projects/ksmt.html
 category: productivity
 stage: design
 reason: Some reason
-language: java/cpp/python/typescript
+languages:
+  - java
 integrations: Project 1
 repository: https://github.com/UnitTestBot/ksmt
 ---

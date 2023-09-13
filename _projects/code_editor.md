@@ -5,7 +5,8 @@ permalink: /projects/code-editor.html
 category: productivity
 stage: development
 reason: Some reason
-language: java/cpp/python/typescript
+languages:
+  - java
 integrations: Project 2, Project 3
 repository: https://github.com/SuduIDE/sudu-editor
 ---

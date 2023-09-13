@@ -5,7 +5,8 @@ permalink: /projects/jacodb.html
 category: quality
 stage: design
 reason: Some reason
-language: java
+languages:
+  - java
 integrations: Project 1
 repository: https://github.com/UnitTestBot/jacodb
 ---

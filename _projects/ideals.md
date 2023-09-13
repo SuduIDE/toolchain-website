@@ -3,7 +3,14 @@ title: IdeaLS
 description: An Intellij IDEA plugin that is intended to turn IntelliJ IDEA into an LSP server and deliver the power of IDEA's language support to LSP clients.
 permalink: /projects/ideals.html
 category: productivity
-stage: in progress
+stage: design
+reason: Some reason
+languages:
+  - java
+  - cpp
+  - python
+  - typescript
+integrations: Project 1
 repository: https://github.com/SuduIDE/ideals
 ---
 
