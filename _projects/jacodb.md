@@ -3,7 +3,10 @@ title: JacoDB
 description: JacoDB is a pure Java library that allows you to get information about Java bytecode outside the JVM process and to store it in a database.
 permalink: /projects/jacodb.html
 category: quality
-stage: in progress
+stage: design
+reason: Some reason
+language: java
+integrations: Project 1
 repository: https://github.com/UnitTestBot/jacodb
 ---
 

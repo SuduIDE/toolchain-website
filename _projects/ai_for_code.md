@@ -4,6 +4,9 @@ description: It is a long-established fact that a reader will be distracted by t
 permalink: /projects/aiforcode.html
 category: productivity
 stage: design
+reason: Some reason
+language: java/cpp/python/typescript
+integrations: Project 1
 ---
 
 # AI for CODE

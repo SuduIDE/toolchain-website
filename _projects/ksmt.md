@@ -3,7 +3,10 @@ title: KSMT
 description: Unified Kotlin/Java API for various SMT solvers.
 permalink: /projects/ksmt.html
 category: productivity
-stage: in progress
+stage: design
+reason: Some reason
+language: java/cpp/python/typescript
+integrations: Project 1
 repository: https://github.com/UnitTestBot/ksmt
 ---
 
