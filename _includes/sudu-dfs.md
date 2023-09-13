@@ -5,13 +5,13 @@ Distributed file system service optimized for IDE usage, supporting
 * content de-deduplication 
 * custom metadata storage 
 * immediate switching between snapshots 
-* contineous sync with external git repositories
+* continuous sync with external git repositories
 
-![dfs-arch-scheme](/assets/images/sudu/dfs-arch-scheme.png)
+![dfs-arch-scheme]({{ "/assets/images/sudu/dfs-arch-scheme.png" | relative_url }})
 
 Can be integrated to development workflow via VsCode extension or FUSE driver.
 
-![dfs-vscode](/assets/images/sudu/dfs-vscode.png)
+![dfs-vscode]({{ "/assets/images/sudu/dfs-vscode.png" | relative_url }})
 
-![dfs-fuse](/assets/images/sudu/dfs-fuse.png)
+![dfs-fuse]({{ "/assets/images/sudu/dfs-fuse.png" | relative_url }})
 

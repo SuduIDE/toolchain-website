@@ -15,16 +15,16 @@ Macro is a powerful tool to manage cross compilation in C++ projects. Side effec
 Sudu addresses code model precision issues by building **composite precise code model for all used combinations of compiler configuration options AKA “compilation profile”**.
 User is being asked to define used compilation profiles in a file stored in Git repository.
 
-![cpp-comp-profile](/assets/images/sudu/cpp-comp-profile.png)
+![cpp-comp-profile]({{ "/assets/images/sudu/cpp-comp-profile.png" | relative_url }})
 
 Taken this configuration Sudu runs Clangd for all defined profiles, stores its result (code model indexes) and supports aggregation of results.
 Sudu also supports “compilation profiles” in C++ VsCode extension. Allowing to choose / switch currently used profile, search for usages across profiles.
 
-![cpp-vscode](/assets/images/sudu/cpp-vscode-1.png)
+![cpp-vscode]({{ "/assets/images/sudu/cpp-vscode-1.png" | relative_url }})
 
-![cpp-vscode](/assets/images/sudu/cpp-vscode-2.png)
+![cpp-vscode]({{ "/assets/images/sudu/cpp-vscode-2.png" | relative_url }})
 
-![cpp-vscode](/assets/images/sudu/cpp-vscode-3.png)
+![cpp-vscode]({{ "/assets/images/sudu/cpp-vscode-3.png" | relative_url }})
 
 ## Advanced code information based on Git historical data
 
