@@ -26,6 +26,7 @@
         {{page.category}}
       </div>
     </div>
+{% if jekyll.environment == "internal" %}
     <div class="projectTitleColumn">
       Integration
       <div class="projectSubtitle">
@@ -33,6 +34,7 @@
         <a href="/project2">Project 2</a>
     </div>
 </div>
+{% endif %}
   </header>
   <main>
     <div style="margin: 20px">
