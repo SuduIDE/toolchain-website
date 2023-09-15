@@ -84,8 +84,7 @@ body::-webkit-scrollbar-thumb {
   width: 15%;
   align-self: center;
   margin-right: 30px;
-  transition: transform .3s;
-  animation: showUpLogo 1.2s ease;
+  animation: showUpLogo 1.2s forwards;
 }
 
 .logoImg:hover {
@@ -101,7 +100,7 @@ body::-webkit-scrollbar-thumb {
     transform: rotate(240deg) scale(1.15);
   }
   100% {
-    transform: rotate(480deg);
+    transform: rotate(480deg) scale(1);
   }
 }
 
