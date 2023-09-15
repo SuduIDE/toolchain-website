@@ -18,6 +18,7 @@ defaults:
 exclude:
   - README.md
   - build-scripts
+  - Gemfile*
 
 load_paths:
   - _sass
