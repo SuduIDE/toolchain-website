@@ -4,7 +4,7 @@ description: Lightweight code editor with support for C++, Java and JavaScript c
 permalink: /projects/sudu-editor.html
 category: productivity
 stage: development
-reason: Focus on performance and ability to run identically in browser and desktop
+reason: Run fast and identically in browser and desktop
 languages:
   - java
   - cpp
