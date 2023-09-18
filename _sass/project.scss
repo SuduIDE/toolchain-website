@@ -6,7 +6,7 @@
   max-height: max-content;
   max-width: 1000px;
   align-self: center;
-  background: linear-gradient(to right, var(--light-gray) 20%, transparent);
+  background: linear-gradient(to right, var(--background) 20%, transparent);
   border-bottom: solid 1px var(--border);
 }
 
@@ -213,6 +213,7 @@ main {
   margin-right: 5%;
   margin-left: 7%;
   margin-top: 8vh;
+  width: 95%;
   max-width: 1000px;
   align-self: center;
   position: relative;

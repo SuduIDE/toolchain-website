@@ -1,0 +1,137 @@
+$spacing-unit: 30px;
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+.highlight {
+  background: white;
+  @extend %vertical-rhythm;
+  .c, .cm, .c1, .cs {
+    color: #95a6a6;
+  }
+  .k, .kc, .kd, .kn, .kp, .kr, .sx, .bp, .nt, .nb {
+    color: #008000;
+  }
+  .o, .m, .mf, .mh, .mi, .mo, .il {
+    color: #666666;
+  }
+  .cp {
+    color: #bc7a00;
+  }
+  .gd {
+    color: #a00000;
+  }
+  .gr {
+    color: #ff0000;
+  }
+  .gh, .gp {
+    color: #000080;
+  }
+  .gi {
+    color: #00a000;
+  }
+  .go {
+    color: #808080;
+  }
+  .gu {
+    color: #800080;
+  }
+  .gt {
+    color: #0040d0;
+  }
+  .kt {
+    color: #b00040;
+  }
+  .na {
+    color: #7d9029;
+  }
+  .no {
+    color: #880000;
+  }
+  .nd, .ow {
+    color: #aa22ff;
+  }
+  .ni {
+    color: #999999;
+  }
+  .ne {
+    color: #d2413a;
+  }
+  .nc, .nf, .nn {
+    color: #0000ff;
+  }
+  .nl {
+    color: #a0a000;
+  }
+  .w {
+    color: #bbbbbb;
+  }
+  .s, .sb, .sc, .sd, .s2, .sh, .s1 {
+    color: #ba2121;
+  }
+  .se {
+    color: #bb6622;
+  }
+  .si, .sr {
+    color: #bb6688;
+  }
+  .ss, .vs, .vg, .vi, .nv {
+    color: #19177c;
+  }
+  .c, .cm, .c1, .cs, .ge, .sd {
+    font-style: italic;
+  }
+  .k, .kc, .kd, .kn, .kr, .gh, .gp, .gs, .gu, .nc, .ni, .ne, .nn, .nt, .ow, .se, .si {
+    font-weight: bold;
+  }
+}
+
+pre.highlight {
+  padding: 8px 12px;
+  position: relative;
+  border: solid 1px var(--border);
+  border-radius: 5px;
+
+  // override skeleton styles
+  > code {
+    border: 0;
+    overflow-x: auto;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  &.highlight {
+    overflow: auto;
+    white-space: pre;
+    word-wrap: normal;
+  }
+
+  // show copy button when hovering over code block
+  &:hover > button {
+    opacity: 1;
+  }
+
+  // copy code to clipboard
+  > button {
+    background: var(--border);
+    color: var(--gray);
+    opacity: 0;
+    position: absolute;
+    width: max-content;
+    transition: all 0.2s ease-out;
+    right: 1vw;
+    top: 4px;
+    font-size: 16px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: none;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: var(--dark-gray);
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+}
