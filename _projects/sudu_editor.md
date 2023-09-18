@@ -7,6 +7,7 @@ stage: development
 reason: Focus on performance and ability to run identically in browser and desktop
 languages:
   - java
+  - cpp
 integrations: Project 2, Project 3
 repository: https://github.com/SuduIDE/sudu-editor
 ---
@@ -21,6 +22,8 @@ and with ability to run identically well from single codebase
 -	there is no need to merge upstream and there are no unexpected conflicts
 -	it is easy portable to run on mobile platforms
 
+<div id="editor"></div>
+
 {% include sudu-editor-demo.html %}
 
 [Full Screen Demo](https://kirillp.github.io/)
@@ -28,4 +31,8 @@ and with ability to run identically well from single codebase
 
 **Diff View**
 
-[Demo](https://kirillp.github.io/#diffDemo)
+Sudu Editor can be also used as a diff tool:
+
+<div id="diff"></div>
+
+[Full Screen Demo](https://kirillp.github.io/#diffDemo)

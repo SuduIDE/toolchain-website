@@ -1,9 +1,11 @@
-<div id="editor"></div>
-
 <script>
     const module = import('{{ "/assets/scripts/sudu-editor.js" | relative_url }}')
-    const text = fetch('{{ "/assets/text/code-sample.java" | relative_url }}').then(r=>r.text())
-    Promise.all([module, text]).then(([module,text]) => {
-        module.setEditorText('editor', text, 'java');
+    const text1 = fetch('{{ "/assets/text/sudu-editor/sample1.java" | relative_url }}').then(r=>r.text())
+    const text2 = fetch('{{ "/assets/text/sudu-editor/sample2.java" | relative_url }}').then(r=>r.text())
+    const text3 = fetch('{{ "/assets/text/sudu-editor/sample3.java" | relative_url }}').then(r=>r.text())
+
+    Promise.all([module, text1, text2, text3]).then(([module, text1, text2, text3]) => {
+        module.setEditorText('editor', text1, 'java');
+        module.setEditorDiffText('diff', text2, text3, 'java');
     })
 </script>
