@@ -20,11 +20,18 @@ subtitle: We are a team of experts that create advanced tools for software devel
                 {% if project.category == 'quality' %}class="label green"{% endif %}>
                 {{project.category}}
         </div>
-                <p class="cardDescription">{{ project.description }}</p>
-            </a>
-{% endfor %}
-        </div>
-        <div class="projectsRow">
-        </div>
+        <p class="cardDescription">{{ project.description }}</p>
+        </a>
+        {% endfor %}
     </div>
+</div>
+<div class="microProjectsContainer">
+    {% for project in site.microProjects %}
+    <div class="microProjectBlock">
+        <div class="microProjectTitle">{{project.name}}</div>
+        <div class="microProjectSubtitle">{{project.presentation}}</div>
+        <div class="microProjectContent">{{project.content}}</div>
+    </div>
+    {% endfor %}
+</div>
 </div>

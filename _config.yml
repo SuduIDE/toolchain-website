@@ -3,6 +3,8 @@ theme: minima
 collections:
   projects:
     output: true
+  microProjects:
+    output: true
 
 defaults:
   - scope:
