@@ -1,0 +1,9 @@
+<div id="editor"></div>
+
+<script>
+    const module = import('{{ "/assets/scripts/sudu-editor.js" | relative_url }}')
+    const text = fetch('{{ "/assets/text/code-sample.java" | relative_url }}').then(r=>r.text())
+    Promise.all([module, text]).then(([module,text]) => {
+        module.setEditorText('editor', text, 'java');
+    })
+</script>

@@ -21,6 +21,11 @@ and with ability to run identically well from single codebase
 -	there is no need to merge upstream and there are no unexpected conflicts
 -	it is easy portable to run on mobile platforms
 
-### Code Editor Demo: https://kirillp.github.io/
+{% include sudu-editor-demo.html %}
 
-### Diff Tool Demo: https://kirillp.github.io/#diffDemo
+[Full Screen Demo](https://kirillp.github.io/)
+
+
+**Diff View**
+
+[Demo](https://kirillp.github.io/#diffDemo)
