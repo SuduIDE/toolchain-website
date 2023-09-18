@@ -1,13 +1,13 @@
 ---
 title: Sudu Platform
-description: It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using
+description: Scalable cloud-native source code models processing
 permalink: /projects/sudu.html
 category: productivity
 stage: development
-reason: Some reason
+reason: Process huge code models in cloud and switch between revisions instantly
 languages:
   - java
-  - typescript
+  - cpp
 integrations: Project 1
 ---
 

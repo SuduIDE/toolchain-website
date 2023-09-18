@@ -19,6 +19,7 @@ exclude:
   - README.md
   - build-scripts
   - Gemfile*
+  - toolchain-website*
 
 load_paths:
   - _sass
