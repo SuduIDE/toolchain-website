@@ -4,7 +4,7 @@ description: Scalable cloud-native source code models processing
 permalink: /projects/sudu.html
 category: productivity
 stage: development
-reason: Process huge code models in cloud and switch between revisions instantly
+reason: Process huge code models in cloud and switch between revisions instantly.
 languages:
   - java
   - cpp

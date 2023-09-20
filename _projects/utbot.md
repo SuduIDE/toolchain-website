@@ -1,8 +1,8 @@
 ---
 title: UnitTestBot
-description: Tool for automated unit test generation and precise code analysis.
+description: Automated unit test generation and precise code analysis.
 permalink: /projects/utbot.html
-category: productivity
+category: quality
 stage: development
 reason: Some reason
 languages:

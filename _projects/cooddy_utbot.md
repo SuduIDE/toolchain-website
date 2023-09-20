@@ -1,6 +1,6 @@
 ---
 title: Cooddy+UTBot
-description: Integration of a Cooddy static analyzer with a UTBot-KLEE symbolic execution virtual machine
+description: Integration of a Cooddy static analyzer with a UTBot-KLEE symbolic execution virtual machine.
 permalink: /projects/cooddy_utbot.html
 category: quality
 stage: development

@@ -1,6 +1,6 @@
 ---
 title: IdeaLS
-description: An Intellij IDEA plugin that is intended to turn IntelliJ IDEA into an LSP server and deliver the power of IDEA's language support to LSP clients.
+description: Intellij IDEA plugin that turns IntelliJ IDEA into an LSP server and delivers the full power of IDEA's language support to LSP clients.
 permalink: /projects/ideals.html
 category: productivity
 stage: design

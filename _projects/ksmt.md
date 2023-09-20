@@ -2,7 +2,7 @@
 title: KSMT
 description: Unified Kotlin/Java API for various SMT solvers.
 permalink: /projects/ksmt.html
-category: productivity
+category: quality
 stage: design
 reason: Some reason
 languages:

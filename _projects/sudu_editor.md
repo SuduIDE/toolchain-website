@@ -1,6 +1,6 @@
 ---
 title: Sudu Editor
-description: Lightweight code editor with support for C++, Java and JavaScript code models
+description: Lightweight code editor with built-in support for C++ and Java code models.
 permalink: /projects/sudu-editor.html
 category: productivity
 stage: development
