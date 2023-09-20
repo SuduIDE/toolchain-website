@@ -34,7 +34,7 @@ subtitle: We are a team of experts that create next-gen tools for software devel
     {% for project in site.microProjects %}
     <div class="microProjectBlock">
         <div class="microProjectTitle">{{project.name}}</div>
-        <div class="microProjectSubtitle">Presentation: {{project.presentation}}</div>
+        <div class="microProjectSubtitle"><a href={{project.presentation}}>Presentation</a></div>
         <div class="microProjectContent">{{project.content}}</div>
     </div>
     {% endfor %}
