@@ -9,6 +9,9 @@ languages:
   - java
 integrations: Project 1
 repository: https://github.com/UnitTestBot/jacodb
+tags:
+  - collaboration
+  - open source
 ---
 
 ## Overview

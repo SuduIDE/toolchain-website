@@ -15,13 +15,18 @@ subtitle: We are a team of experts that create advanced tools for software devel
             {% for project in site.projects %}
             <a href="{{ project.url | relative_url }}" class="projectCard">
                 <p class="cardTitle">{{ project.title }}</p>
-                <div {% if project.category==
+                <div {% if project.category ==
                 'productivity' %}class="label orange"{% endif %}
                 {% if project.category == 'quality' %}class="label green"{% endif %}>
                 {{project.category}}
-        </div>
-        <p class="cardDescription">{{ project.description }}</p>
-        </a>
+                </div>
+                <p class="cardDescription">{{ project.description }}</p>
+                <div class="tagsContainer">
+                    {% for tag in project.tags %}
+                    <p class="tag">#{{tag}}</p>
+                    {% endfor %}
+                </div>
+            </a>
         {% endfor %}
     </div>
 </div>
@@ -29,7 +34,7 @@ subtitle: We are a team of experts that create advanced tools for software devel
     {% for project in site.microProjects %}
     <div class="microProjectBlock">
         <div class="microProjectTitle">{{project.name}}</div>
-        <div class="microProjectSubtitle">{{project.presentation}}</div>
+        <div class="microProjectSubtitle">Presentation: {{project.presentation}}</div>
         <div class="microProjectContent">{{project.content}}</div>
     </div>
     {% endfor %}

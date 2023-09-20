@@ -9,6 +9,9 @@ languages:
   - java
 integrations: Project 1
 repository: https://github.com/UnitTestBot/ksmt
+tags:
+  - collaboration
+  - open source
 ---
 
 Get the most out of SMT solving with KSMT features:

@@ -12,6 +12,9 @@ languages:
 - typescript
 integrations: Project 2, Project 3
 repository: https://github.com/program-analysis-team/cooddy
+tags:
+  - collaboration
+  - open source
 ---
 
 ## Why to use Cooddy

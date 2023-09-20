@@ -12,6 +12,9 @@ languages:
   - typescript
 integrations: Project 1
 repository: https://github.com/SuduIDE/ideals
+tags:
+  - collaboration
+  - open source
 ---
 
 [LSP](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/)

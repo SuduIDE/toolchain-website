@@ -10,6 +10,9 @@ languages:
   - typescript
 integrations: Project 1
 repository: https://github.com/UnitTestBot/usvm
+tags:
+  - collaboration
+  - open source
 ---
 
 ## How we got here

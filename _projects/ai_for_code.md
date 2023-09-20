@@ -11,6 +11,9 @@ languages:
   - python
   - typescript
 integrations: Project 1
+tags:
+  - collaboration
+  - open source
 ---
 
 # AI for CODE

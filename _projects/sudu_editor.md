@@ -10,6 +10,9 @@ languages:
   - cpp
 integrations: Project 2, Project 3
 repository: https://github.com/SuduIDE/sudu-editor
+tags:
+  - collaboration
+  - open source
 ---
 It is designed and implemented from scratch with focus on portability and performance
 and with ability to run identically well from single codebase

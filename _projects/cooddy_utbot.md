@@ -11,6 +11,9 @@ languages:
   - python
   - typescript
 integrations: Project 2, Project 3
+tags:
+  - collaboration
+  - open source
 ---
 
 ## Purpose

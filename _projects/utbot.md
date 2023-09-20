@@ -10,6 +10,9 @@ languages:
    - typescript
 integrations: Project 1
 repository: https://github.com/UnitTestBot/UTBotJava
+tags:
+   - collaboration
+   - open source
 ---
 
 👉 Find UnitTestBot on [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/19445-unittestbot).

@@ -9,6 +9,9 @@ languages:
   - java
   - cpp
 integrations: Project 1
+tags:
+  - collaboration
+  - open source
 ---
 
 # Sudu for C++
