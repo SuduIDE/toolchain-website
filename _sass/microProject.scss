@@ -1,5 +1,7 @@
 .microProjectsContainer {
-  width: 95vw;
+  width: 97%;
+  align-self: center;
+  /*width: 95vw;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
@@ -8,10 +10,14 @@
   border-left: solid 3px;
   border-image: linear-gradient(to bottom, var(--light-purple), var(--light-red), var(--light-orange)) 1;
   margin-left: 5vw;
-  overflow-x: hidden;
+  overflow-x: hidden;*/
 
 }
 .microProjectBlock {
+  width: 100%;
+  min-height: 200px;
+  max-height: max-content;
+  border-bottom: 1px solid var(--border);/*
   width: 85vw;
   min-width: 85vw;
   max-width: 700px;
@@ -20,11 +26,11 @@
   border-radius: 14px;
   margin-top: 10px;
   margin-left: 5vw;
-  margin-right: 0;
+  margin-right: 0;*/
 }
 
 .microProjectBlock div {
-  margin: 40px;
+  margin: 40px 40px 20px;
   color: var(--gray);
 }
 
@@ -35,12 +41,13 @@
 
 .microProjectSubtitle {
   font-size: 1.10rem;
-  font-weight: 100;
+  font-weight: 350;
+  margin-bottom: 10px;
 }
 
 .microProjectContent {
   font-size: 1.12rem;
-  font-weight: 250;
+  font-weight: 350;
   color: var(--dark-gray);
 }
 
@@ -49,4 +56,13 @@
   margin-right: 10px;
   vertical-align: middle;
 
+}
+
+details {
+  line-height: 30px;
+  text-align: justify;
+}
+
+summary:hover {
+  cursor: pointer;
 }
