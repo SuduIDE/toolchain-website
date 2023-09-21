@@ -1,7 +1,7 @@
 ---
 title: Layout for the Structure view in IntelliJ CE
-presentation: Presentation
-summary: short overview
+presentation: /pdfs/ij-struct-view-layout.pdf
+summary: Simplify IJ structure view tuning for custom languages
 tags:
 github: https://github.com/SuduIDE/ij-struct-view-layout
 ---

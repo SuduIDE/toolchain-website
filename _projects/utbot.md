@@ -13,6 +13,7 @@ repository: https://github.com/UnitTestBot/UTBotJava
 tags:
    - cooperation
    - opensource
+website: https://www.utbot.org
 ---
 
 👉 Find UnitTestBot on [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/19445-unittestbot).

@@ -1,7 +1,7 @@
 ---
 title: Generation of high-level client code for GRPC clients/services in Java
-presentation: Presentation
-summary: short overview
+presentation: /pdfs/protogen.pdf
+summary: Relief developers from writing boilerplate code for protobuf models and gRPC clients   
 tags:
 github: https://github.com/SuduIDE/sudu/tree/master/protogen
 ---

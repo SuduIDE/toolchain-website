@@ -44,7 +44,7 @@ subtitle: We are a team of experts that create next-gen tools for software devel
             <p class="tag">#{{tag}}</p>
             {% endfor %}
         </div>
-        <div class="microProjectSubtitle"><a href={{project.presentation}}>Presentation</a></div>
+        <div class="microProjectSubtitle"><a href={{project.presentation | relative_url }}>Presentation</a></div>
         <div class="microProjectContent">
             <details>
                 <summary>{{project.summary}}</summary>

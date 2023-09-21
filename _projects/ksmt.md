@@ -11,6 +11,7 @@ integrations: Project 1
 repository: https://github.com/UnitTestBot/ksmt
 tags:
   - opensource
+website: https://ksmt.io/
 ---
 
 Get the most out of SMT solving with KSMT features:

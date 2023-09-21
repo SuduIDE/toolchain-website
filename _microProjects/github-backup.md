@@ -1,7 +1,7 @@
 ---
-title: Backup application for GitHub organizations
-presentation: 
-summary: short overview
+title: Backup application for GitHub
+presentation: /pdfs/github-backup.pdf
+summary: Tool for backup GitHub organizations, include repositories content and metadata.
 tags:
 github: https://github.com/cloud-labs-infra/github-backup
 ---

@@ -1,7 +1,7 @@
 ---
 title: Automatic inference of recursive invariants based on catamorphisms
-presentation: Presentation
-summary: short overview
+presentation: /pdfs/adt-solver.pdf
+summary: Infer invariants of programs with complex data structures
 tags:
 github: https://github.com/ndreuu/adt-solver
 ---

@@ -1,7 +1,7 @@
 ---
 title: Encoding java-bytecode in CIRCUIT-SAT for solving program equivalence problems
-presentation: 
-summary: short overview
+presentation: /pdfs/transbyte.pdf
+summary: Reduce the Code Clone detection problem for java-bytecode programs
 tags:
 github: https://github.com/eqimd/transbyte
 ---
