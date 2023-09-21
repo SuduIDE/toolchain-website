@@ -55,7 +55,7 @@ You can run USVM in your repo CI by configuring the [ByteFlow](https://github.co
 If we modify the above program a little, things change drastically:
 ![False positive sample]({{ "/assets/images/usvm/injection_fp.png" | relative_url }})
 
-All interprodecural dataflow analysers we've tried report the similar warning for this program. However, this is false alarm:
+All interprodecural dataflow analysers we've tried report the similar warning for this program. However, this is false alarm: untrusted data is read only in development mode (that is, when `production` field is false), but the real database query happens only in production mode.
 
 The reason why the existing analysers are wrong is the lack of condition-sensitive analysis: they simply do not understand that untrusted data is emitted only under conditions that prevent program from getting into `checkUserIsAdminProd` method. 
 
