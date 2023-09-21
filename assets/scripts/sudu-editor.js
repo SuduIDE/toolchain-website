@@ -1,4 +1,4 @@
-const cdn = "https://cdn.jsdelivr.net/npm/sudu-editor-tmp@0.0.8-beta20"
+const cdn = "https://cdn.jsdelivr.net/npm/sudu-editor-tmp@0.0.9-beta2"
 const editorJs = "/src/editor.js";
 const workerJS = "/src/worker.js"
 
