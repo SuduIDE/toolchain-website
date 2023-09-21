@@ -6,8 +6,7 @@ category: quality
 stage: prototype-ready
 reason: Some reason
 languages:
-  - java
-  - typescript
+  - any
 integrations: Project 1
 repository: https://github.com/UnitTestBot/usvm
 tags:

@@ -7,7 +7,11 @@ stage: prototype-ready
 reason: Some reason
 languages:
    - java
-   - typescript
+   - kotlin
+   - cpp
+   - python
+   - javascript
+   - go
 integrations: Project 1
 repository: https://github.com/UnitTestBot/UTBotJava
 tags:

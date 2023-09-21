@@ -8,8 +8,6 @@ reason: Some reason
 languages:
 - java
 - cpp
-- python
-- typescript
 integrations: Project 2, Project 3
 repository: https://github.com/program-analysis-team/cooddy
 tags:

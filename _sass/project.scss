@@ -277,8 +277,20 @@ main {
   background: var(--pink);
 }
 
+.kotlin {
+  background: var(--green);
+}
+
 .typescript {
   background: var(--light-blue);
+}
+
+.javascript {
+  background: var(--dark-red);
+}
+
+.go {
+  background: var(--light-red);
 }
 
 .projectTitleColumn .label {

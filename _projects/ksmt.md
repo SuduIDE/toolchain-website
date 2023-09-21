@@ -7,6 +7,7 @@ stage: prototype-ready
 reason: Some reason
 languages:
   - java
+  - kotlin
 integrations: Project 1
 repository: https://github.com/UnitTestBot/ksmt
 tags:

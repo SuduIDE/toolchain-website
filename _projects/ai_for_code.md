@@ -8,8 +8,6 @@ reason: Some reason
 languages: 
   - java
   - cpp
-  - python
-  - typescript
 integrations: Project 1 
 tags:
   - cooperation
