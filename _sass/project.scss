@@ -46,7 +46,6 @@
   font-size: 18px;
   font-weight: 300;
   color: var(--gray);
-
 }
 
 .projectTitleColumn div a {
@@ -228,6 +227,14 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0 !important;
+  align-items: center;
 }
 
 .circle {
@@ -256,4 +263,10 @@ main {
 
 .projectTitleColumn .label {
   font-size: 15px;
+}
+
+.projectHeader .tagsContainer {
+  align-self: center;
+  margin-top: 5%;
+  animation: showUpTranslateDown 1.5s forwards;
 }

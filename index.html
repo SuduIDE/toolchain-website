@@ -31,11 +31,30 @@ subtitle: We are a team of experts that create next-gen tools for software devel
     </div>
 </div>
 <div class="microProjectsContainer">
+    <div class="microProjectTitleBlock">
+        <div class="line"></div>
+        <div class="title">Micro R&D Projects</div>
+        <div class="line transform180"></div>
+    </div>
     {% for project in site.microProjects %}
     <div class="microProjectBlock">
-        <div class="microProjectTitle">{{project.name}}</div>
+        <div class="microProjectTitle">{{project.title}}</div>
+        <div class="row">
+            {% for tag in project.tags %}
+            <p class="tag">#{{tag}}</p>
+            {% endfor %}
+        </div>
         <div class="microProjectSubtitle"><a href={{project.presentation}}>Presentation</a></div>
-        <div class="microProjectContent">{{project.content}}</div>
+        <div class="microProjectContent">
+            <details>
+                <summary>{{project.summary}}</summary>
+                {{project.content}}
+            </details>
+            {%if project.github %}
+            <img src="{{ "/assets/images/github_icon.png" | relative_url }}"/>
+            <a href={{project.github}}>Source code</a>
+            {% endif %}
+        </div>
     </div>
     {% endfor %}
 </div>

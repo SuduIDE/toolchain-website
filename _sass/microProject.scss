@@ -1,6 +1,8 @@
 .microProjectsContainer {
   width: 97%;
   align-self: center;
+  animation: showUpTranslateDown 1.5s forwards;
+  padding-top: 50px;
   /*width: 95vw;
   display: flex;
   justify-content: flex-end;
@@ -30,13 +32,21 @@
 }
 
 .microProjectBlock div {
-  margin: 20px 40px 10px;
+  margin: 15px 40px 10px;
   color: var(--gray);
 }
 
 .microProjectTitle {
   font-size: 1.875rem;
   font-weight: 700;
+}
+
+.microProjectTitleBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .microProjectSubtitle {
@@ -51,7 +61,7 @@
   color: var(--dark-gray);
 }
 
-.microProjectContent p img {
+.microProjectContent img {
   width: 25px;
   margin-right: 10px;
   vertical-align: middle;
@@ -61,6 +71,10 @@
 details {
   line-height: 30px;
   text-align: justify;
+}
+
+summary {
+  margin-bottom: 10px;
 }
 
 summary:hover {

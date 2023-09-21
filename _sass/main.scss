@@ -115,9 +115,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .title {
-  font-size: calc(1em + 2.5vw);
+  font-size: 3rem;
   color: var(--dark-gray);
   font-weight: 750;
+  text-align: center;
+  width: 100%;
 }
 
 .subtitle {
@@ -208,11 +210,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .line {
-  background: linear-gradient(90deg, rgba(153, 1, 0, 1) 0%, rgba(224, 151, 13, 1) 30%, var(--background) 100%);
-  height: max-content;
+  background: linear-gradient(90deg, var(--red) 0%, rgba(224, 151, 13, 1) 30%, var(--background) 100%);
+  height: 3px;
   font-weight: 200;
-  width: 3px;
-  position: absolute;
+  width: 100%;
   left: 5px;
   transition: background 1s linear;
 }
@@ -268,10 +269,11 @@ main p img {
   color: var(--gray);
   opacity: .65;
   margin-right: 10px;
+  margin-bottom: 0;
 }
 
 .tagsContainer {
-  height: 20%;
+  height: 15%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -294,4 +296,8 @@ footer img {
   width: 30px;
   position: relative;
   top: 7px;
+}
+
+.transform180 {
+  transform: rotateY(180deg);
 }

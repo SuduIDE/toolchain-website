@@ -51,13 +51,18 @@
       </div>
       <div class="projectTitleColumn">
         Supported Languages
-        <div class="projectSubtitle">
+        <div class="row">
           {% for language in page.languages %}
           <div class="language">
           <p class="circle {{ language }}"></p>{{language}}&nbsp;</div>
           {% endfor %}
         </div>
       </div>
+    </div>
+    <div class="tagsContainer">
+      {% for tag in page.tags %}
+      <p class="tag">#{{tag}}</p>
+      {% endfor %}
     </div>
   </header>
   <main>
