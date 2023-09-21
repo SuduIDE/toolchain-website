@@ -9,13 +9,19 @@
     <a href="{{'/' | relative_url }}" class="homeLink">
       <img class="homeLinkImg" src="{{ "/assets/images/logo.png" | relative_url }}"/>
     </a>
+    {% if page.website %}
+    <a href={{page.website | relative_url }} class="siteLink">
+      <img  class="siteLinkImg" src="{{ "/assets/images/home.png" | relative_url }}"/>
+    </a>
+    {% endif %}
     <a href="{{page.repository | relative_url }}" class="githubLink">
-      <img class="homeLinkImg" src="{{ "/assets/images/github_icon.png" | relative_url }}"/>
+      <img class="siteLinkImg" src="{{ "/assets/images/github_icon.png" | relative_url }}"/>
     </a>
     <div class="orangeFigure"></div>
     <div class="redFigure"></div>
     <div class="purpleFigure"></div>
-    <div class="projectTitle">{{ page.title }}
+    <div class="projectTitle">
+      {{ page.title }}
       <p class="projectSubtitle">{{ page.description }}</p>
     </div>
     <div class="projectHeaderRow">

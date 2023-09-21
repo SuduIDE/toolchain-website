@@ -44,18 +44,27 @@ subtitle: We are a team of experts that create next-gen tools for software devel
             <p class="tag">#{{tag}}</p>
             {% endfor %}
         </div>
-        <div class="microProjectSubtitle"><a href={{project.presentation | relative_url }}>Presentation</a></div>
         <div class="microProjectContent">
             <details>
                 <summary>{{project.summary}}</summary>
                 {{project.content}}
             </details>
             {%if project.github %}
-            <img src="{{ "/assets/images/github_icon.png" | relative_url }}"/>
-            <a href={{project.github}}>Source code</a>
+            <a href={{project.github}}>
+                <img src="{{ "/assets/images/github_icon.png" | relative_url }}"/>
+            </a>
+            {% endif %}
+            {%if project.presentation %}
+            <a href={{project.presentation}}>
+                <img src="{{ "/assets/images/pdf.png" | relative_url }}"/>
+            </a>
+            {% endif %}
+            {%if project.website %}
+            <a href={{project.website}}>
+                <img src="{{ "/assets/images/home.png" | relative_url }}"/>
+            </a>
             {% endif %}
         </div>
     </div>
     {% endfor %}
-</div>
 </div>

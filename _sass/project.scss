@@ -4,6 +4,7 @@
   margin: 10% 10% 5%;
   min-height: 90vh;
   max-height: max-content;
+  min-width: 70%;
   max-width: 1000px;
   align-self: center;
   background: linear-gradient(to right, var(--background) 20%, transparent);
@@ -179,25 +180,44 @@
   z-index: 100;
 }
 
+.siteLink {
+  width: 50px;
+  position: absolute;
+  right: 11vw;
+  top: 8vh;
+  z-index: 100;
+}
+
+.siteLinkImg {
+  height: 40px;
+  position: absolute;
+  z-index: 100;
+}
+
 .projectContent {
   margin-top: 0;
   position: relative;
 }
 
-.projectContent h2 {
+.projectContent h1 {
   font-size: 40px;
   margin-top: 50px;
 }
 
+.projectContent h2 {
+  font-size: 34px;
+  margin-top: 50px;
+}
+
 .projectContent h3 {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: normal;
   margin-top: 40px;
   margin-bottom: 32px;
 }
 
 .projectContent h4 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: normal;
   margin-top: 30px;
   margin-bottom: 25px;
