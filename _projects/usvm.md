@@ -3,7 +3,7 @@ title: USVM
 description: Ultimately powerful language-agnostic core for implementing custom symbolic execution based products.
 permalink: /projects/usvm.html
 category: quality
-stage: development
+stage: prototype-ready
 reason: Some reason
 languages:
   - java
@@ -11,8 +11,8 @@ languages:
 integrations: Project 1
 repository: https://github.com/UnitTestBot/usvm
 tags:
-  - collaboration
-  - open source
+  - cooperation
+  - opensource
 ---
 
 ## How we got here

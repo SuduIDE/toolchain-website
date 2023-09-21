@@ -3,15 +3,14 @@ title: KSMT
 description: Unified Kotlin/Java API for various SMT solvers.
 permalink: /projects/ksmt.html
 category: quality
-stage: design
+stage: prototype-ready
 reason: Some reason
 languages:
   - java
 integrations: Project 1
 repository: https://github.com/UnitTestBot/ksmt
 tags:
-  - collaboration
-  - open source
+  - opensource
 ---
 
 Get the most out of SMT solving with KSMT features:

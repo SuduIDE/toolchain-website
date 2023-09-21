@@ -1,19 +1,18 @@
 ---
 title: AI for code
-description: It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 
+description: 
 permalink: /projects/aiforcode.html
 category: productivity
-stage: design
+stage: sketch
 reason: Some reason
 languages: 
   - java
   - cpp
   - python
   - typescript
-integrations: Project 1
+integrations: Project 1 
 tags:
-  - collaboration
-  - open source
+  - cooperation
 ---
 
 # AI for CODE

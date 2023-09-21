@@ -1,17 +1,14 @@
 ---
-title: Sudu Platform
+title: Cloud IDE
 description: Scalable cloud-native source code models processing
 permalink: /projects/sudu.html
 category: productivity
-stage: development
+stage: prototype-ready
 reason: Process huge code models in cloud and switch between revisions instantly.
 languages:
   - java
   - cpp
 integrations: Project 1
-tags:
-  - collaboration
-  - open source
 ---
 
 # Sudu for C++

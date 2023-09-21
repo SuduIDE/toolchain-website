@@ -1,7 +1,7 @@
 ---
 name: Addition for Bear (C++)
 presentation: SRC_Bear_full.pdf
-description: short overview
+description: Description
 ---
 <details>
     <summary>short description</summary>

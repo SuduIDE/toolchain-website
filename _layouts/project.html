@@ -21,10 +21,9 @@
     <div class="projectHeaderRow">
       <div class="projectTitleColumn">
         Stage
-        <div class="label {% if page.stage == 'development' %} red
-             {% elsif page.stage == 'completed' %} green
-             {% elsif page.stage == 'design' %} purple
-             {% elsif page.stage == 'integration' %} orange
+        <div class="label {% if page.stage == 'sketch' %} purple
+             {% elsif page.stage == 'prototype-ready' %} orange
+             {% elsif page.stage == 'integrated' %} green
              {% endif %}">{{page.stage}}</div>
       </div>
       <div class="projectTitleColumn">

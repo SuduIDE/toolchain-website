@@ -3,7 +3,7 @@ title: Sudu Editor
 description: Lightweight code editor with built-in support for C++ and Java code models.
 permalink: /projects/sudu-editor.html
 category: productivity
-stage: development
+stage: prototype-ready
 reason: Run fast and identically in browser and desktop
 languages:
   - java
@@ -11,8 +11,7 @@ languages:
 integrations: Project 2, Project 3
 repository: https://github.com/SuduIDE/sudu-editor
 tags:
-  - collaboration
-  - open source
+  - opensource
 ---
 It is designed and implemented from scratch with focus on portability and performance
 and with ability to run identically well from single codebase

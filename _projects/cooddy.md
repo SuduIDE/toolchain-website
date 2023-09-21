@@ -3,7 +3,7 @@ title: Cooddy
 description: Source code analysis tool using Data-Flow Analysis and Static Symbolic Execution
 permalink: /projects/cooddy.html
 category: quality
-stage: development
+stage: integrated
 reason: Some reason
 languages:
 - java
@@ -13,8 +13,7 @@ languages:
 integrations: Project 2, Project 3
 repository: https://github.com/program-analysis-team/cooddy
 tags:
-  - collaboration
-  - open source
+  - opensource
 ---
 
 ## Why to use Cooddy

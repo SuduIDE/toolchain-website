@@ -3,7 +3,7 @@ title: UnitTestBot
 description: Automated unit test generation and precise code analysis.
 permalink: /projects/utbot.html
 category: quality
-stage: development
+stage: prototype-ready
 reason: Some reason
 languages:
    - java
@@ -11,8 +11,8 @@ languages:
 integrations: Project 1
 repository: https://github.com/UnitTestBot/UTBotJava
 tags:
-   - collaboration
-   - open source
+   - cooperation
+   - opensource
 ---
 
 👉 Find UnitTestBot on [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/19445-unittestbot).
