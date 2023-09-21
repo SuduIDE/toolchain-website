@@ -55,7 +55,7 @@ subtitle: We are a team of experts that create next-gen tools for software devel
             </a>
             {% endif %}
             {%if project.presentation %}
-            <a href={{project.presentation}}>
+            <a href={{project.presentation | relative_url}}>
                 <img src="{{ "/assets/images/pdf.png" | relative_url }}"/>
             </a>
             {% endif %}
