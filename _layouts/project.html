@@ -14,9 +14,11 @@
       <img  class="siteLinkImg" src="{{ "/assets/images/home.png" | relative_url }}"/>
     </a>
     {% endif %}
+    {%if page.repository %}
     <a href="{{page.repository | relative_url }}" class="githubLink">
       <img class="siteLinkImg" src="{{ "/assets/images/github_icon.png" | relative_url }}"/>
     </a>
+    {% endif %}
     <div class="orangeFigure"></div>
     <div class="redFigure"></div>
     <div class="purpleFigure"></div>
