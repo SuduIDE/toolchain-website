@@ -11,7 +11,7 @@
     </a>
     {% if page.website %}
     <a href={{page.website | relative_url }} class="siteLink">
-      <img  class="siteLinkImg" src="{{ "/assets/images/home.png" | relative_url }}"/>
+      <img  class="siteLinkImg" src="{{ "/assets/images/site.png" | relative_url }}"/>
     </a>
     {% endif %}
     {%if page.repository %}
@@ -62,16 +62,26 @@
           {% endfor %}
         </div>
       </div>
+      {% if page.reason %}
       <div class="projectTitleColumn">
-
-        <div> </div>
+        Reason
+        <div class="reason">
+          <p>{{page.reason}}</p>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+    {% if page.tags %}
+    <div class="projectHeaderRow">
+      <div class="projectTitleColumn">
+        <div class="row">
+          {% for tag in page.tags %}
+          <p class="tag">#{{tag}}</p>
+          {% endfor %}
+        </div>
       </div>
     </div>
-    <div class="tagsContainer">
-      {% for tag in page.tags %}
-      <p class="tag">#{{tag}}</p>
-      {% endfor %}
-    </div>
+    {% endif %}
   </header>
   <main>
     <div class="projectContent">

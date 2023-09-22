@@ -4,11 +4,9 @@ description: Source code analysis tool using Data-Flow Analysis and Static Symbo
 permalink: /projects/cooddy.html
 category: quality
 stage: integrated
-reason: Some reason
 languages:
 - java
 - cpp
-integrations: Project 2, Project 3
 repository: https://github.com/program-analysis-team/cooddy
 tags:
   - opensource

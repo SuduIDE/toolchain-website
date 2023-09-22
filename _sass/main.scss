@@ -124,7 +124,7 @@ body::-webkit-scrollbar-thumb {
 
 .subtitle {
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 320;
   color: var(--gray);
   margin-top: -10px;
 }
@@ -188,7 +188,7 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   height: 35%;
   font-size: 1.15rem;
-  font-weight: 320;
+  font-weight: 360;
 }
 
 .projectCard:hover {
@@ -267,9 +267,11 @@ main p img {
 .tag {
   font-size: 1.15rem;
   color: var(--gray);
+  font-weight: 330;
   opacity: .65;
   margin-right: 10px;
   margin-bottom: 0;
+  margin-top: 10px;
 }
 
 .tagsContainer {

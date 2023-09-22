@@ -4,7 +4,6 @@ description: Automated unit test generation and precise code analysis.
 permalink: /projects/utbot.html
 category: quality
 stage: prototype-ready
-reason: Some reason
 languages:
    - java
    - kotlin
@@ -12,7 +11,6 @@ languages:
    - python
    - javascript
    - go
-integrations: Project 1
 repository: https://github.com/UnitTestBot/UTBotJava
 tags:
    - cooperation

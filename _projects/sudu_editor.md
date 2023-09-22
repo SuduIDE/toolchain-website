@@ -8,7 +8,6 @@ reason: Run fast and identically in browser and desktop
 languages:
   - java
   - cpp
-integrations: Project 2, Project 3
 repository: https://github.com/SuduIDE/sudu-editor
 tags:
   - opensource

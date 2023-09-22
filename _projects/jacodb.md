@@ -4,10 +4,8 @@ description: Pure Java library that allows you to get information about Java byt
 permalink: /projects/jacodb.html
 category: quality
 stage: prototype-ready
-reason: Some reason
 languages:
   - java
-integrations: Project 1
 repository: https://github.com/UnitTestBot/jacodb
 tags:
   - cooperation

@@ -7,7 +7,6 @@ stage: development
 reason: Formal analysis of deep behaviours and errors in code
 languages:
   - any
-integrations: Project 1
 repository: https://github.com/UnitTestBot/usvm
 ---
 

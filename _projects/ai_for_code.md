@@ -4,11 +4,9 @@ description:
 permalink: /projects/aiforcode.html
 category: productivity
 stage: sketch
-reason: Some reason
 languages: 
   - java
   - cpp
-integrations: Project 1 
 tags:
   - cooperation
 ---

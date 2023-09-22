@@ -4,13 +4,11 @@ description: Intellij IDEA plugin that turns IntelliJ IDEA into an LSP server an
 permalink: /projects/ideals.html
 category: productivity
 stage: prototype-ready
-reason: Some reason
 languages:
   - java
   - cpp
   - python
   - typescript
-integrations: Project 1
 repository: https://github.com/SuduIDE/ideals
 tags:
   - opensource

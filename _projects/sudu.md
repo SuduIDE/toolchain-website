@@ -8,7 +8,6 @@ reason: Process huge code models in cloud and switch between revisions instantly
 languages:
   - java
   - cpp
-integrations: Project 1
 ---
 
 # Sudu for C++
