@@ -60,4 +60,4 @@ KLEEF can be used in the following way.
 - Add support of all types of program annotations used by static analyzers to KLEEF.
 - Use information collected by static analyzers during analysis (such as a call graph) to speed up KLEEF.
 
-For more details, see [paper](./pdfs/kleef.pdf).
+For more details, see [paper](../pdfs/kleef.pdf).
