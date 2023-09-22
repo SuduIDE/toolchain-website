@@ -46,7 +46,7 @@ Goals:
 
 #### 2. Formal Code Specification as Intermediate Representation in Text-to-Code and Code-to-Text Tasks.
 Goals:
-1.	Increase pass@1 rate by 10% compared with base model (PanGu Coder) on HumanEval+ benchmark. (HumanEval+ is the novel updated version of HumanEval dataset, where more attention is payed to edge cases and code vulnerabilities https://arxiv.org/pdf/2305.01210.pdf)
+1.	Increase pass@1 rate by 10% compared with base model (PanGu Coder) on HumanEval+ benchmark. (HumanEval+ is the novel updated version of HumanEval dataset, where more attention is payed to edge cases and code vulnerabilities [https://arxiv.org/pdf/2305.01210.pdf](https://arxiv.org/pdf/2305.01210.pdf))
 2.	Increase pass rate pass@1 on docstring generation task on HumanEval benchmark by 10% compared with base model (PanGu Coder).
 
 #### 3. Novel approaches to integrate project-level context.
