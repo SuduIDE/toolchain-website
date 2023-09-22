@@ -7,7 +7,7 @@ such services, DFS optimized for IDE usage should deal with not only objects
 (files) and their contents, but with their _layout_ (directory structure) as
 well. Files layout and corresponding files contents represent a working copy
 of a project which should be strongly consistent. Those consistent sets of
-files are called DVF _snapshots_. In addition, DFS optimized for IDE usage
+files are called DFS _snapshots_. In addition, DFS optimized for IDE usage
 should be able to represent history of a project files as a partially ordered
 set of snapshots. DFS optimized for IDE usage should allow to easily retrieve
 changes between any historical snapshots, since this feature is necessary for
@@ -19,7 +19,7 @@ in underlying cloud services.
 In short, DFS optimized for IDE usage should provide unique features:
 - access to file system layouts (directory structures);
 - consistent snapshot of file system, its layout and files contents;
-- history of file system; branches;
+- immutable history of file system; branches;
 - working with changes; optimal storing.
 
 ## Immutable file system snapshots
