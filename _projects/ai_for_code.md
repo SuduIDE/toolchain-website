@@ -55,3 +55,4 @@ Goals:
 2.	Increase project context up to 1-10 MLoC.
 3.	Increase pass rate pass@1 by 10% compared to ChatGPT (and CopilotX) on the collected dataset.
 
+<a href="{{ "/pages/moscow-nlp.html" | relative_url}}">Other Moscow R&D Projects</a>
