@@ -1,4 +1,26 @@
-Distributed file system service optimized for IDE usage.
+Distributed file system (DFS) service optimized for IDE usage is required to be
+(as any DFS service) scalable and highly-available. Typical DFS service (like
+[Apache HDFS](https://hadoop.apache.org)) or Cloud Object Storage (like 
+[Amazon S3](https://aws.amazon.com/en/s3)) is optimized for streaming large
+binary objects while providing weak consistency guaranties. Unlike most of
+such services, DFS optimized for IDE usage should deal with not only objects
+(files) and their contents, but with their _layout_ (directory structure) as
+well. Files layout and corresponding files contents represent a working copy
+of a project which should be strongly consistent. Those consistent sets of
+files are called DVF _snapshots_. In addition, DFS optimized for IDE usage
+should be able to represent history of a project files as a partially ordered
+set of snapshots. DFS optimized for IDE usage should allow to easily retrieve
+changes between any historical snapshots, since this feature is necessary for
+different IDE services like compilers, parsers, indexers, builders of
+project/code models, etc. Ability to retrieve changes results in optimal
+storing strategy when only changes between successive snapshots can be stored
+in underlying cloud services.
+
+In short, DFS optimized for IDE usage should provide unique features:
+- access to file system layouts (directory structures);
+- consistent snapshot of file system, its layout and files contents;
+- history of file system; branches;
+- working with changes; optimal storing.
 
 ## Immutable file system snapshots
 
@@ -17,7 +39,7 @@ e.g., during population of huge git repos.
 
 Distributed file system supports content de-duplication out of the box. Same contents
 of different files even in different projects do not waste cloud storage space.
-De-duplication lets detecting unchanged files even if they claimed as changed.
+De-duplication lets detecting unchanged files even if they are claimed as changed.
 
 ## Custom metadata storage
 
