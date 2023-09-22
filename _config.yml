@@ -5,6 +5,8 @@ collections:
     output: true
   microProjects:
     output: true
+  moscowProjects:
+    output: false
 
 defaults:
   - scope:
