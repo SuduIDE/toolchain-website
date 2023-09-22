@@ -32,6 +32,7 @@
         <div class="label {% if page.stage == 'sketch' %} purple
              {% elsif page.stage == 'prototype-ready' %} orange
              {% elsif page.stage == 'integrated' %} green
+             {% else %} red
              {% endif %}">{{page.stage}}</div>
       </div>
       <div class="projectTitleColumn">
