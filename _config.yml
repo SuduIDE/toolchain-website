@@ -28,7 +28,8 @@ exclude:
 load_paths:
   - _sass
 
-baseurl: toolchain-website
+baseurl: ""
+url: https://toolchain-labs.com/
 repository: SuduIDE/toolchain-website
 
 plugins:
