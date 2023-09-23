@@ -176,6 +176,7 @@ body::-webkit-scrollbar-thumb {
   line-height: 1.5;
   overflow: hidden;
   color: var(--dark-gray);
+  transition: .3s;
 }
 
 .cardTitle {
