@@ -1,7 +1,7 @@
 ---
 title: Sudu Cloud IDE DFS
 description: Distributed file system (DFS) service optimized for IDE usage
-permalink: /projects/sudu.html
+permalink: /projects/sudu-vfs.html
 category: productivity
 stage: prototype-ready
 reason: General purpose file system lacks of key features required for next generation Cloud IDE  

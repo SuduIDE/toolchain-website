@@ -4,8 +4,9 @@ description: Source code analysis tool using Data-Flow Analysis and Static Symbo
 permalink: /projects/cooddy.html
 category: quality
 stage: integrated
+reason: Provide general purpose SAST tool for C/C++ code analysis and vulnerability detection
 languages:
-- java
+- c
 - cpp
 repository: https://github.com/program-analysis-team/cooddy
 tags:

@@ -4,9 +4,13 @@ description: Universal Symbolic Virtual Machine is an ultimately powerful langua
 permalink: /projects/usvm.html
 category: quality
 stage: development
-reason: Formal analysis of deep behaviours and errors in code
+reason: Next generation precise code analysis and vulnerabilities detection platform
 languages:
-  - any
+  - java
+  - python
+  - go
+tags:
+  - cooperation
 repository: https://github.com/UnitTestBot/usvm
 ---
 

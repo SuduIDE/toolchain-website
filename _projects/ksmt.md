@@ -1,9 +1,10 @@
 ---
 title: KSMT
-description: Unified Kotlin/Java API for various SMT solvers.
+description: Unified Kotlin/Java API for various SMT solvers and SMT formula manipulation library
 permalink: /projects/ksmt.html
 category: quality
 stage: prototype-ready
+reason: Ultimate tool to work with SMT expressions and solver in Java world
 languages:
   - java
   - kotlin

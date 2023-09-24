@@ -6,6 +6,8 @@ category: quality
 stage: prototype-ready
 languages:
   - java
+  - kotlin
+reason: Overcome all drawbacks of Soot analysis framework
 repository: https://github.com/UnitTestBot/jacodb
 tags:
   - cooperation

@@ -4,6 +4,7 @@ description: Intellij IDEA plugin that turns IntelliJ IDEA into an LSP server an
 permalink: /projects/ideals.html
 category: productivity
 stage: prototype-ready
+reason: Cheapest way to start using full power of JetBrains IDEs as a backend for Visual Studio Code
 languages:
   - java
   - cpp

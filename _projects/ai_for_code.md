@@ -1,9 +1,10 @@
 ---
 title: AI for code
-description: 
+description: Boost Large Language Models by injecting structured code models and code analysis
 permalink: /projects/aiforcode.html
 category: productivity
 stage: sketch
+reason: Large Language Models (LLM) are now trained on unstructured streams of tokens; mixing information about code graphs and verification of LLM output by formal methods should improve LLM quality.  
 languages: 
   - java
   - cpp

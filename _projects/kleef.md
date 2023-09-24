@@ -4,9 +4,13 @@ description: Symbolic Execution Engine.
 permalink: /projects/kleef.html
 category: quality
 stage: integrated
+reason: Minimum false positive engine for LLVM bitcode code analysis, vulnerability detection and test generation 
 languages:
-- c/c++
-repository:
+  - c
+  - c++
+repository: https://github.com/UnitTestBot/klee
+tags:
+  - opensource
 ---
 
 # Purpose
