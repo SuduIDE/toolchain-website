@@ -31,12 +31,6 @@ Sudu also supports “compilation profiles” in C++ VsCode extension. Allowing 
 Sudu VsCode extension uses historical data stored for code model elements (classes / methods) to display methods, classes age in UI.
 Class history tool window provides overview of evolution for all class structure elements.
 
-**!! SCREENSHOT NEEDED !!**
-
-## AI-based context aware code summarization
-
-{% include ai-code-summarization.md %}
-
 {% if jekyll.environment == "internal" %}
 {% include projects-internal/sudu-cpp-internal.md %}
 {% endif %}
