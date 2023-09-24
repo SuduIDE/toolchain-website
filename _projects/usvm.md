@@ -60,7 +60,7 @@ The reason why the existing analysers are wrong is the lack of condition-sensiti
 
 The major reason for this is that condition-sensitive analysis is complex and expensive. USVM makes condition-sensitive analysis robust and scalable. In particular, USVM does not report warning in this program.
 
-You can run the this example online in our [demo repository](https://github.com/unitTestBot/byteflow/security/code-scanning).
+You can run this example online in our [demo repository](https://github.com/unitTestBot/byteflow/security/code-scanning?query=is%3Aopen+branch%3Ausvm-demo).
 
 # Writing custom checkers
 
