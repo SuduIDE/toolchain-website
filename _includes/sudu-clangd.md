@@ -14,4 +14,7 @@ Modify the existing clangd LSP server to make it almost stateless. It still need
 - Code/project models provided by Sudu backend
 - Stateless to support multiple IDE sessions
 - Querying of historical data from code model 
-- Features/improvements for HQ from Huawei C/C++
+{% if jekyll.environment == "internal" %} 
+{% include projects-internal/sudu-clangd-features.md %}
+{% endif %}
+
