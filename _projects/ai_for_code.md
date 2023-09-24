@@ -56,4 +56,13 @@ Goals:
 2.	Increase project context up to 1-10 MLoC.
 3.	Increase pass rate pass@1 by 10% compared to ChatGPT (and CopilotX) on the collected dataset.
 
+---
+## Demo:
+We're planning to prototype next use cases for demonstration of practical value of the research:
+1. code summary generation
+2. code refinement
+
+---
+## See also
+
 <a href="{{ "/pages/moscow-nlp.html" | relative_url}}">Other Noah's Ark Moscow Projects</a>
