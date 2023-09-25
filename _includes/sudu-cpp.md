@@ -9,8 +9,6 @@ Sudu uses cloud native storages for its data. Additionally, Sudu applies increme
 As a result, Sudu can **serve codebase model for repositories with 10+ billions LOC altogether with its history of thousands of Git revisions**.
 Another big benefit is that one can **quickly switch between Git revisions** w/o downloading full index database or running re-indexing.
 
-[Online Demo](https://code-browser.sudu.online/)
-
 ## Precise code model for projects with cross compilation
 
 Macro is a powerful tool to manage cross compilation in C++ projects. Side effect of its usage are possible issues in code navigation provided by IDE.
