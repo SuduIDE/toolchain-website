@@ -46,7 +46,7 @@ and applicable to real-life large-scale software projects.
 
 Based on these ideas, we propose three research directions:
 
-![AI for Code directions]({{ "/assets/images/ai_for_code/directions_v2.png" | relative_url }})
+![AI for Code directions]({{ "/assets/images/ai_for_code/diractions_v3.png" | relative_url }})
 
 ## Providing LLMs with project-level context
 
