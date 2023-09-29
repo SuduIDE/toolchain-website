@@ -1,68 +1,95 @@
 ---
 title: AI for code
-description: Boost Large Language Models by injecting structured code models and code analysis
+description: Boosting Large Language Models by structured code models and code analysis
 permalink: /projects/aiforcode.html
 category: productivity
 stage: sketch
-reason: Large Language Models (LLM) are now trained on unstructured streams of tokens; mixing information about code graphs and verification of LLM output by formal methods should improve LLM quality.  
+reason: Large Language Models (LLMs) are now trained on unstructured streams of tokens. To improve LLM quality for 
+  code generation and code comprehension tasks, we plan to use code structure information to improve the model, and to verify the 
+  LLM output by formal methods.  
 languages: 
   - java
   - cpp
 tags:
   - cooperation
----
-
-# AI for CODE
----
-## General idea:
-Modern AI-powered solutions demonstrate incredible performance in a wide variety of areas, including natural language processing, image generation and recognition, and more. Large Language Models (LLMs) have enabled an unprecedented level of understanding of software code. 
-
-However, there are a significant issues of the current LLM algorithms, which restricts their practical application in the code area. 
-First of all, code comprehension ability was demonstrated mainly for relatively short code snippets, like one function or a single code file. In practice, software program have much more complex project structure than single code file.
-Another critical issue is that LLM might generate vulnerable code, because train dataset contain it.
-
-But well-known program analysis methods can help to solve a subset of these problems that LLMs are not well suited for.
-
-We believe that the correct way is to combine the strengths of both approaches, and in the proposed project we explore possible directions to achieve this combination.
 
 ---
 
-## Project objectives:
-Explore novel engineering technology of combination general AI LLM with program analysis methods as killer enhancement, to lift the availability of LLM tech and application on actual large scale software development process.
+# General approach
 
----
+Modern AI-powered solutions demonstrate incredible performance in a wide variety of areas such as natural 
+language processing or image generation and recognition. Using Large Language Models (LLMs) for code area is a hot 
+topic, but there is still a large room for improvement both for code comprehension and code generation. We believe 
+that the most promising direction is _combining LLMs with proven program analysis methods_ to get the most out of AI 
+for developers. 
 
-## We selected 3 directions of research:
+## Using larger project context
 
+Current LLM algorithms show a high level of code comprehension but still suffer from using the narrow code context. 
+Code comprehension ability is demonstrated mainly for relatively short code snippets, such as a function, or a 
+single code file. In practice, software has a much more complex project structure.
+To increase the quality of LLM output, we develop techniques _to make a LLM use the larger project context_. 
+
+## Reducing code vulnerability and deficiency
+
+Code generation tools become widespread, and they all have one critical issue: LLMs may generate vulnerable code.
+We believe we can _make LLMs output less deficient by 
+providing them with feedback from formal methods_.
+
+# Project objectives
+
+Our project is aimed at developing basic technologies to increase LLMs output quality for code domain.
+The killer enhancement is leveraging LLMs with program analysis methods to make AI-based solutions reliable, safe, 
+and applicable to real-life large-scale software projects.
+
+# Research directions
+
+Based on these ideas, we propose three research directions:
 
 ![AI for Code directions]({{ "/assets/images/ai_for_code/directions.png" | relative_url }})
 
+## Providing LLMs with project-level context
 
+By project-level context, we mean structural code information such as call graphs, external dependencies, type information, etc. We are aimed at providing LLMs with the larger 
+project contexts to gain higher LLM output quality for code-to-text tasks such as generating code summaries.
 
-#### 1. Formal methods as a feedback for LLMs in Text-to-Code task.
-Goals:
-1.	Reduce by 20% compared to ChatGPT the number of vulnerabilities of type AO (arithmetic overflow), BO(buffer overflow), ABV(array bound violation), DFN (dereference of null pointer) in C code, using FormAI dataset. (FormAI is the dataset of ChatGPT generated code snippets labelled with vulnerabilities types https://arxiv.org/pdf/2307.02192.pdf)
-2.	Collect the dataset of 100 000 code snippets with vulnerabilities labelling for Java.
-3.	Achieve vulnerability rate 20% less compared to Codex on the collected dataset.
+Our goals in this project are:
+* to collect a _code-to-text_ dataset from large projects (1–10 MLoC) for C++ and Java;
+* to extract relevant project-level context from large code bases (1-10 MLoC) and to make a LLM use it;
+* to increase the LLM's _pass@1_ rate by 10% compared to [ChatGPT](https://chat.openai.com/) and [CopilotX]() on the collected dataset.
 
-#### 2. Formal Code Specification as Intermediate Representation in Text-to-Code and Code-to-Text Tasks.
-Goals:
-1.	Increase pass@1 rate by 10% compared with base model (PanGu Coder) on HumanEval+ benchmark. (HumanEval+ is the novel updated version of HumanEval dataset, where more attention is payed to edge cases and code vulnerabilities [https://arxiv.org/pdf/2305.01210.pdf](https://arxiv.org/pdf/2305.01210.pdf))
-2.	Increase pass rate pass@1 on docstring generation task on HumanEval benchmark by 10% compared with base model (PanGu Coder).
+## Providing LLMs with feedback from formal methods
 
-#### 3. Novel approaches to integrate project-level context.
-Goals:
-1.	Collect code-to-text dataset with 1-10 MLoC project context for C++ and Java.
-2.	Increase project context up to 1-10 MLoC.
-3.	Increase pass rate pass@1 by 10% compared to ChatGPT (and CopilotX) on the collected dataset.
+Program analysis methods such as symbolic execution are efficient in finding deeply-hidden bugs, 
+so they can serve as feedback for a LLM to make the model's output less vulnerable.
 
----
-## Demo:
-We're planning to prototype next use cases for demonstration of practical value of the research:
-1. code summary generation
-2. code refinement
+Our goals in this project are:
 
----
-## See also
+* to reduce the number of vulnerabilities by 20% compared to [ChatGPT](https://chat.openai.com/) in generated C code, using [FormAI](https://arxiv.org/pdf/2307.02192.pdf) dataset,
+which is the dataset of ChatGPT-generated code snippets labelled with vulnerability type such as:
+    * arithmetic overflow (AO),
+    * buffer overflow (BO),
+    * array bound violation (ABV),
+    * dereference of a null pointer (DFN);
+* to collect the dataset of 100 000 Java code snippets labeled with vulnerability types; 
+* to gain a vulnerability rate, which is 20% less compared to [Codex](https://arxiv.org/pdf/2307.02192.pdf) on the collected dataset.
 
-<a href="{{ "/pages/moscow-nlp.html" | relative_url}}">Other Noah's Ark Moscow Projects</a>
+## Providing LLMs with code invariants as intermediate representations
+
+Program analysis tools based on formal methods such as symbolic execution can provide a LLM with code invariants. 
+These code invariants can help a LLM to "understand" code and, thus, to generate more comprehensive summaries. 
+Invariants can also help a LLM to generate functionally correct and less vulnerable code.
+
+Our goals in this project are:
+* to increase the _pass@1_ rate for a docstring generation task by 10% compared to a base model ([PanGu Coder](https://arxiv.org/abs/2307.14936)) on [HumanEval-X](https://arxiv.org/abs/2303.17568) benchmark, 
+  which is the multi-language version of [HumanEval](https://github.com/openai/human-eval) dataset.
+
+# Practical applications: demo
+
+To demonstrate the real-life applications of our approach, we plan to prototype the following solutions:
+* a code summarization tool that can help developers with code reviews;
+* a code refinement tool, which allows developers to pass the defective code to a LLM, so that the model can generate the bug fix.
+
+# Related projects
+
+<a href="{{"/pages/moscow-nlp.html" | relative_url}}">Noah’s Ark Moscow Projects</a>
