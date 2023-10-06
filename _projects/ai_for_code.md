@@ -12,8 +12,9 @@ languages:
   - cpp
 tags:
   - cooperation
-
 ---
+To join us as ML Engineer, Software Developer or DevOps, please, contact our recruiter Stepan: https://t.me/ITHRBP
+
 
 # General approach
 
