@@ -57,7 +57,7 @@ project contexts to gain higher LLM output quality for code-to-text tasks such a
 Our goals in this project are:
 * to collect a _code-to-text_ dataset from large projects (1–10 MLoC) for C++ and Java;
 * to extract relevant project-level context from large code bases (1-10 MLoC) and to make a LLM use it;
-* to increase the LLM's _pass@1_ rate by 10% compared to [ChatGPT](https://chat.openai.com/) and [CopilotX]() on the collected dataset.
+* to increase the LLM's _pass@1_ rate by 10% compared to [ChatGPT](https://chat.openai.com/) and [CopilotX](https://github.com/features/preview/copilot-x) on the collected dataset.
 
 ## Providing LLMs with feedback from formal methods
 
