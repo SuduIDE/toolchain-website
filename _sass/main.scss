@@ -19,7 +19,6 @@ body {
 }
 
 html {  max-width: 100%;
-
   overflow-x: hidden;
 }
 
@@ -64,7 +63,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .titleBlock {
-  height: 400px;
+  height: max-content;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -123,8 +122,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .subtitle {
-  font-size: 24px;
-  font-weight: 320;
+  font-size: 20px;
+  font-weight: 350;
   color: var(--gray);
   margin-top: -10px;
 }
@@ -154,41 +153,91 @@ body::-webkit-scrollbar-thumb {
 
 .projectsRow {
   width: 100%;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  max-width: 1200px;
   display: flex;
   flex-direction: row;
+  align-items: stretch;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .projectCard {
   box-sizing: border-box;
-  flex: 1 1 25vw;
-  min-width: 340px;
+  flex: 1 1 10em;
+  min-width: 280px;
   height: 400px;
   background-color: var(--background);
-  border-radius: 17px 17px 17px 17px / 20px 20px 20px 20px;
+  border-radius: 20px 20px 20px 20px/18px 18px 18px 18px;
   text-decoration: none;
   margin: 27px;
   text-align: left;
   padding: 25px;
   line-height: 1.5;
-  overflow: hidden;
   color: var(--dark-gray);
   transition: .3s;
 }
 
+@media (max-width: 820px) {
+  .projectsRow {
+    flex-direction: column;
+  }
+  .projectCard {
+    height: max-content;
+    min-height: 400px;
+  }
+  .cardDescription {
+    height: 25%;
+  }
+  .titleLogo {
+    width: 100%;
+  }
+
+  .titleBlock div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titleLogo {
+    text-align: start;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    z-index: 1;
+  }
+
+  .logoImg {
+    position: absolute;
+    width: 40%;
+    opacity: .2;
+    z-index: 0;
+    left: 0;
+  }
+
+  .subtitle {
+    width: 100%;
+    color: var(--gray);
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 360;
+    text-align: justify;
+    margin-left: 0;
+  }
+}
+
 .cardTitle {
   position: relative;
-  font-size: 1.875rem;
+  font-size: 40px;
+  line-height: 1.1;
   font-weight: 800;
+  margin-bottom: 10px;
 }
 
 .cardDescription {
   position: relative;
   height: 35%;
-  font-size: 1.15rem;
+  font-size: 18px;
   font-weight: 360;
 }
 

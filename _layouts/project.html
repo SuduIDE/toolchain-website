@@ -6,19 +6,23 @@
 <body>
 <div class="content">
   <header class="projectHeader">
-    <a href="{{'/' | relative_url }}" class="homeLink">
-      <img class="homeLinkImg" src="{{ "/assets/images/logo.png" | relative_url }}"/>
-    </a>
-    {% if page.website %}
-    <a href={{page.website | relative_url }} class="siteLink">
-      <img  class="siteLinkImg" src="{{ "/assets/images/site.png" | relative_url }}"/>
-    </a>
-    {% endif %}
-    {%if page.repository %}
-    <a href="{{page.repository | relative_url }}" class="githubLink">
-      <img class="siteLinkImg" src="{{ "/assets/images/github_icon.png" | relative_url }}"/>
-    </a>
-    {% endif %}
+    <div class="titleRow">
+      <a href="{{'/' | relative_url }}" class="homeLink">
+        <img class="homeLinkImg" src="{{ "/assets/images/logo.png" | relative_url }}"/>
+      </a>
+      <div>
+        {% if page.website %}
+        <a href={{page.website | relative_url }} class="siteLink">
+          <img class="siteLinkImg" src="{{ "/assets/images/site.png" | relative_url }}"/>
+        </a>
+        {% endif %}
+        {%if page.repository %}
+        <a href="{{page.repository | relative_url }}" class="githubLink">
+          <img class="siteLinkImg" src="{{ "/assets/images/github_icon.png" | relative_url }}"/>
+        </a>
+      {% endif %}
+      </div>
+    </div>
     <div class="orangeFigure"></div>
     <div class="redFigure"></div>
     <div class="purpleFigure"></div>
