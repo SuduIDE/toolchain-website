@@ -60,6 +60,7 @@ See [Jekyll documentation](https://jekyllrb.com/docs/variables/)
 ### Add internal content
 
 To insert content that should be rendered only in `internal` build mode use the following syntax:
+
 ```
 {% if jekyll.environment == "internal" %}
 Internal content goes here
